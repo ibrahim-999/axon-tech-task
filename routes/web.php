@@ -13,5 +13,5 @@
 |
 */
 
-$router->get('/', "HomeController@index");
+$router->get('/', "ExampleController@index");
 $router->get('/api/customers/', "CustomersController@index");
