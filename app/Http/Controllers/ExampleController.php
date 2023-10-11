@@ -14,5 +14,10 @@ class ExampleController extends Controller
         //
     }
 
+    public function index(): \Illuminate\View\View|\Laravel\Lumen\Application
+    {
+        return view('index');
+    }
+
     //
 }
